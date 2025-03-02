@@ -125,9 +125,12 @@ box-shadow: 2px 3px 2px #333;
     height: 100%;
     text-align: center;
 }
-.buttons button a:hover,
+.buttons button a:hover{
+    color: rgb(20, 20, 19);
+    text-decoration: underline;
+}
 .project button a:hover {
-    color: yellow;
+    color: rgb(241, 241, 236);
     text-decoration: underline;
 }
 .buttons button a:visited{
@@ -138,7 +141,7 @@ box-shadow: 2px 3px 2px #333;
 }
 .buttons button a:active,
 .project button a:active {
-    color: rgb(164, 180, 20);
+    color: rgb(235, 236, 229);
 }
 .buttons>button:nth-child(1){
     background-color: var(--primary-color);
