@@ -116,31 +116,17 @@ box-shadow: 2px 3px 2px #333;
     height: 100%;
     text-align: center;
 }
-.project button a {
-    text-decoration: none; /* Remove underline */
-    color: white; /* Default color */
-    font-weight: bold;
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
+
 .buttons button a:hover{
     color: rgb(20, 20, 19);
     text-decoration: underline;
 }
-.project button a:hover {
-    color: rgb(241, 241, 236);
-    text-decoration: underline;
-}
+
 .buttons button a:visited{
     color: black;
 }
-.project button a:visited {
-    color: lightgray;
-}
-.buttons button a:active,
-.project button a:active {
+
+.buttons button a:active {
     color: rgb(235, 236, 229);
 }
 .buttons>button:nth-child(1){
@@ -196,12 +182,16 @@ box-shadow: 2px 3px 2px #333;
 /* .project button /* inside class project , select the button */
 /*.project >button /* inside class project , select the button which is direct child of class project */
 /*menu .nav inside menu selct class nav */
-.project>button{
-    width: max-content;
+.btn-pro>button{
+    width: 130px;
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
+}
+.btn-pro>button a{
+    text-decoration: none;
+    color: white;
 }
 .contactForm{
     display: flex;
